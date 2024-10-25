@@ -1,10 +1,9 @@
 name: ExpressJS API CI pipeline
 
 on: 
-  workflow_run:
-    workflows: ["build-test"]
-    types:
-      - completed
+  push:
+    branches: ["main"]
+
 permissions:
   contents: read      # Read access to the repository contents
   packages: write     # Write access to Docker Hub for pushing images
