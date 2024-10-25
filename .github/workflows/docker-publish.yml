@@ -31,4 +31,4 @@ jobs:
         with:
           context: .                  
           push: true                  
-          tags: givencingco/nest-app:latest
+          tags: givencingco/python:latest
