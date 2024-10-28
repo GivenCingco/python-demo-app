@@ -1,4 +1,4 @@
-name: ExpressJS API CI pipeline
+name: Python-app
 
 on: 
   push:
